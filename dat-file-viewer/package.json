@@ -2,7 +2,7 @@
   "name": "dat-file-viewer-v1",
   "displayName": "DAT File Viewer",
   "description": "View high-volume SOH, pipe, comma, or tab delimited .dat data dumps seamlessly in a clean, interactive grid layout.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "alphaA123",
   "engines": {
     "vscode": "^1.85.0"
