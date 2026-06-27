@@ -1,9 +1,9 @@
 {
-  "name": "dat-tabular-viewer",
-  "displayName": "DAT Tabular Viewer",
-  "description": "View SOH-delimited .dat files seamlessly in an Excel-like tabular format.",
+  "name": "dat-file-viewer-v1",
+  "displayName": "DAT File Viewer",
+  "description": "View high-volume SOH, pipe, comma, or tab delimited .dat data dumps seamlessly in a clean, interactive grid layout.",
   "version": "1.0.0",
-  "publisher": "your-publisher-name",
+  "publisher": "alphaA123",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -16,11 +16,20 @@
     "dat",
     "soh",
     "delimiter",
-    "table",
-    "viewer"
+    "data engineering",
+    "table"
   ],
   "activationEvents": [],
   "main": "./extension.js",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alphaA123/DAT-file-viewer_v1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alphaA123/DAT-file-viewer_v1/issues"
+  },
+  "homepage": "https://github.com/alphaA123/DAT-file-viewer_v1#readme",
   "contributes": {
     "customEditors": [
       {
