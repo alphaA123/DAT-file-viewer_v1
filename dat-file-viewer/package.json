@@ -1,0 +1,41 @@
+{
+  "name": "dat-tabular-viewer",
+  "displayName": "DAT Tabular Viewer",
+  "description": "View SOH-delimited .dat files seamlessly in an Excel-like tabular format.",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Visualization",
+    "Data Science",
+    "Other"
+  ],
+  "keywords": [
+    "dat",
+    "soh",
+    "delimiter",
+    "table",
+    "viewer"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "datViewer.tabularView",
+        "displayName": "DAT Tabular Viewer",
+        "selector": [
+          {
+            "filenamePattern": "*.dat"
+          }
+        ],
+        "priority": "option"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0"
+  }
+}
